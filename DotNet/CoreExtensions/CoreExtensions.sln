@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreExtensions", "CoreExtensions\CoreExtensions.csproj", "{0EBF206C-5DEC-4046-9AF7-9F2BE15FB8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreExtensionsTests", "CoreExtensionsTests\CoreExtensionsTests.csproj", "{D24F7F21-FD9F-465E-9B48-1B8775D26B4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EBF206C-5DEC-4046-9AF7-9F2BE15FB8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBF206C-5DEC-4046-9AF7-9F2BE15FB8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBF206C-5DEC-4046-9AF7-9F2BE15FB8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBF206C-5DEC-4046-9AF7-9F2BE15FB8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24F7F21-FD9F-465E-9B48-1B8775D26B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24F7F21-FD9F-465E-9B48-1B8775D26B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24F7F21-FD9F-465E-9B48-1B8775D26B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24F7F21-FD9F-465E-9B48-1B8775D26B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CoreExtensions\CoreExtensions.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.RemoveTrailingWhitespace = True
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
